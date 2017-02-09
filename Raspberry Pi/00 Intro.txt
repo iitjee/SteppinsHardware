@@ -1,0 +1,72 @@
+/*
+
+
+
+- need to be good at linux bash scripts
+
+The easiest way to transfer files to your Raspberry Pi is with a flash drive. Copy it to your drive from pc
+and connect it your Pi by  inserting it into one of the USB ports and it will show up on your desktop. It'll ask you 
+if you want to open it up in the file manager, which is exactly what we want to do, and you'll notice that the flash
+drive shows up under /media, FLASH DRIVE.
+
+
+Useful Websites:
+www.raspberrypi.org (official)
+
+elinux.org/RPi_Hub 
+(is a clearinghouse of information about the version of Linux running on Raspberry Pi)
+(There is information about the General Purpose Input/Output pins, also known as GPIO, Raspbian Wheezy, a version of
+Linux designed for the Raspberry Pi, and some sample projects. You'll also find information about other embedded systems
+such as the MinnowBoard and BeagleBoard. Adafruit sells the Raspberry Pi as well as power supplies, motor control boards
+and experimentation kits.)
+
+parkFun.com 
+sells electronic kits as well as the Raspberry Pi and peripherals.
+If you're buying odd electronic parts or even normal electronics parts, SparkFun is a great place to look.
+
+adafruit.com
+
+Safety Handling:
+The Raspberry Pi is a circuit board. It's not protected and is fragile compared to a normal desktop computer. Be sure to
+ground yourself to remove static electricity. You can do this simply by touching a metal surface. 
+**Don't place the Raspberry  Pi on metal surfaces.** 
+If you lay it on a metal surface, there is a good chance you may short out some of the electronics 
+underneath or on top of the board. Be careful with the pins and the electronic components on the board. They are fragile and
+will snap off, and they're often mishandled.
+
+**Be especially careful when plugging and unplugging the power, USB, and other connectors and be especially careful not to
+short out those gold GPIO pins on the very back of the board.**
+You may want to build or buy a case to protect your investment.
+Do a quick web search for Raspberry Pi enclosures, and you'll discover an entire community dedicated to creating weird and
+wonderful custom boxes for these little computers. If you're fortunate, you may have access to a 3D printer.
+
+Understanding the Pi Family! :)
+When you first decide to purchase a Raspberry Pi, you'll find it confusing array of Raspberry Pi versions. In reality the're only a couple of features to consider. 
+1. Availability:
+2. Onboard memory (Early model As only had 256 megabytes of on board memory. The Raspberry Pi 3 now has four times that amount.)
+
+One of the advantages of the Raspberry Pi, over other micro controllers, is it's built in Ethernet port. 
+(if you're buying a used Raspberry Pi model A or A plus, you wont get Ethernet on those two models.)
+
+Speed din't used to a factor, since all Raspberry Pi were sensely the same. However the Raspberry Pi model 3 has increased the
+clock spin with four Cores running at 1.2 gigahertz. For some applications this may make a difference.
+
+A recent change, only present on a Raspberry Pi model 3 is the addition of built in wireless and Bluetooth support. 
+In the past both of these could be accomplished but required a USB adapter.
+
+At this time I recommend the Raspberry Pi model 3 for general experimentation. It's fast, reasonably priced, the GPIO is easy
+to access, and the board has wireless and Bluetooth built in.
+
+Accessories:
+- Power
+- SDCable
+- Ethernet
+- Kbd and mouse
+- HDMI cable
+- monitor
+(all are easy to obtain, also available in 2nd hand stores)
+
+
+
+
+
