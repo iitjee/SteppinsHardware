@@ -102,4 +102,20 @@ And again, this is useful for Headless operation, that is, without a monitor.
  - HDMI monitors, such as modern flat panel TVs. You probably already have one in your house. All you'll need is the correct cable to do so. 
  - Your third option, ofcourse, is VNC. And this doesn't require any cable at all. But it does require a bit of configuration.
 
+POWER SUPPLY:
+You'll want to be sure to get a 5-volt micro USB connector and 1.2 to 2.5 amps. In this case, bigger is better.
+Phone chargers work, but be sure to get a good one. Some cheaper chargers don't deliver the voltage or amperage that they say
+that they will.
+- If you're going to use your Raspberry Pi for anything sound related, you'll want a shielded power cable with a ferrite bead.
+You can recognize these as the small barrel (look in your lenovo charger near usb end) on the end of the cable. This ferrite bead will prevent static from getting into
+the audio circuits.
+- A single cable will work for just the Raspberry Pi, but if you're going to connect to USB devices, such as webcams or 
+hard drives, you'll need a powered USB hub.
+Be sure that your hub pulls power from the wall, not the Raspberry Pi. We're trying to provide extra power that the 
+Raspberry Pi peripherals can use instead of pulling power from the Raspberry Pi itself. 
 
+Now, you may find that your Raspberry Pi shuts down or behaves oddly, and this is usually a sure sign that you're trying 
+to pull too much current through the Raspberry Pi. Again, a passive hub will not help. You'll need to make sure it plugs
+into the wall. 
+
+USB hubs are fairly inexpensive, and they usually have about four USB connectors.
