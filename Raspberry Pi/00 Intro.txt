@@ -81,7 +81,8 @@ of the red and white lines and the video coming out of yellow. If your cable doe
 swapping these around. Sometimes they aren't wired the way you might expect. In most cases you can swap the colors around, and
 that'll work. But there are some cables that simply won't work. You'll need a voltmeter to check this.
 
-To confirm that your cable will work, read the resistance between the sleeve and the ground. If you have zero ohms between those two points, this cable will not work for the Raspberry Pi. 
+To confirm that your cable will work, read the resistance between the sleeve and the ground. If you have zero ohms between 
+those two points, this cable will not work for the Raspberry Pi. 
 
 Another trick is to press a key when NOOBS is booting to select what video mode you want to be in. 
 If you press 1, you will go into HDMI Preferred Mode.
@@ -119,3 +120,27 @@ to pull too much current through the Raspberry Pi. Again, a passive hub will not
 into the wall. 
 
 USB hubs are fairly inexpensive, and they usually have about four USB connectors.
+
+One of the last things you're gonna have to round up is an SD card, and these are memory cards. An SD card takes 
+the place of a hard drive in the Raspberry Pi. There's a couple of things you'll want to know before purchasing an 
+SD card.
+- First, you'll need a regular or full-size SD card if you own a Model A or Model B Raspberry Pi.
+(Keep in mind, these are the older Raspberry Pis.)
+- If you do own a Model A+, B+, or a Raspberry Pi Model 2, you'll want a MicroSD card. They aren't interchangeable.
+Obviously the adapter for either one is gonna be a different size. You can buy regular SD cards that have a slot to put 
+the MicroSD card in the back of it, kind of a piggyback device.
+- And that's what I use so I can swap it back and forth between different Raspberry Pis that I have laying around my house. 
+You'll want to buy at least 8 gigabytes, although less might work, and more certainly won't hurt you.
+
+You do want to make sure to get a Class 6 or better. And this has to do with how fast memory can be accessed. If you buy a
+Class 2 or 3, you may observe that there are strange things happening when the Raspberry Pi tries to access the memory.
+
+So it's just easier to get yourself a better card to start off with. Don't plan on sharing this SD card with other devices.
+When you install Raspberry Pi software on this SD card, you will remove everything else that was on there, including any 
+precious photographs you may have stored on there for years. 
+
+
+
+
+
+
