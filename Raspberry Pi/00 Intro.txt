@@ -97,8 +97,9 @@ computer on another computer over the network.
 And again, this is useful for Headless operation, that is, without a monitor.
  Be aware that some applications don't work under VNC, particularly the Scratch programming language and Minecraft. 
  
- So for monitors, you have three options. Older monitors and a TRRS cable, shown here, HDMI monitors, such as modern flat
- panel TVs. You probably already have one in your house. All you'll need is the correct cable to do so. Your third option, of
- course, is VNC. And this doesn't require any cable at all. But it does require a bit of configuration.
+ So for monitors, you have three options. 
+ - Older monitors and a TRRS cable, shown here, 
+ - HDMI monitors, such as modern flat panel TVs. You probably already have one in your house. All you'll need is the correct cable to do so. 
+ - Your third option, ofcourse, is VNC. And this doesn't require any cable at all. But it does require a bit of configuration.
 
 
