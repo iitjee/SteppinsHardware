@@ -1,0 +1,48 @@
+
+
+
+You'll need an operating system for your Raspberry Pi, and the Raspberry Pi Foundation has very kindly provided something called NOOBS.
+NOOBS is a clever acronym for New Out Of the Box Software. It's a software installer built and maintained by the Raspberry Pi 
+Foundation and provides an incredibly convenient way to put an operating system on your Raspberry Pi. 
+
+
+**NOOBS SD Card**
+NOOBS comes with six operating systems. If that's not enough, or you want something different than what they have to 
+offer, you can go to www.elinux.org/RPi_Distributions, where they keep a complete list of all of the available distributions 
+and operating systems that you may wanna play with.
+
+
+DOwnload Noobs:
+https://www.raspberrypi.org/downloads/noobs/
+There are a couple of considerations when making a Noobs versus Noobs Lites decision. 
+The first thing you'll want to know about Noobs is that it is a 704 megabyte download. If you're using a 8-gigabyte SD card, this really isn't an issue
+You might also want to be aware that some of the OS versions on Noobs can be out of date.
+This really isn't a big deal because when you install Noobs, you're given the option to update. Keep in mind though this does 
+require an ethernet connection on your Raspberry Pi. 
+
+ Noobs Lite, on the other hand, is only 20 megabytes large, it's just simply an installer, it doesn't actually contain the 
+ operating systems. It does require an internet connection, because it has to download all of the operating systems across
+ the internet. So, if you have a really, really, really slow internet, you might want to do Noobs, or if you have a 
+ Model A, then you'll absolutely have to use the Noobs installer, not the Noobs Lite.
+
+
+The Raspberry Pi Model A does not have an ethernet connection, so you can't install over the internet. If at all
+possible, go with the full version of Noobs. Just Noobs, not Noobs Lite. Most memory cards are able to store that 704 
+megabytes, and if you have an internet connection, you're still going to get the most current software.
+
+
+Building NOOBS on an SD card ManuallYy:
+MAC
+- put your SD card into the card reader slot on the side of your computer and as soon as you do that, you'll see that
+the Macintosh comes up with a card on the desktop
+- Now, I'm going to use `Disk Utility` to format that SD card.
+- Click your SD Card from the options and then I go over to Erase. I make sure that the format is FAT, MS-DOS (FAT) and I give it some name. I'm gonna 
+call it "NOOBS." And then I go down to the button that says "Erase."
+- Just drag and drop all the CONTENTS of the NOOB installer files into your sd card directory
+voila! we now have a bootable sd card
+
+WINDOWS:
+- In explorer, right click sd card -> format -> make sure that the file system is FAT32
+- Just drag and drop all the CONTENTS of the NOOB installer files into your sd card directory
+voila! we now have a bootable sd card
+
