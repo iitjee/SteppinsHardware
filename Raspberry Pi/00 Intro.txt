@@ -69,11 +69,17 @@ Accessories:
 
 The Raspberry Pi can be run without a monitor. But not a good way to begin with
 Monitors: VGA, HDMI, VNC
-Let's talk about VGA first. The original model A and B Raspberry Pi supplied video through an RCA composite jack using an RCA standard plug. (yellow wire) (tv wala)
+Let's talk about VGA first. The original model A and B Raspberry Pi supplied video through an RCA composite jack using an
+RCA standard plug. (yellow wire) (tv wala)
 
-Model A and B audio comes from a standard audio check.  Model A Plus B Plus and model 2 still have composite video or VGA. But it comes out of the audio jack. This is called Tip Ring Ring Sleeve. And you'll need a cable to do this. Search for TRRS to RCA 3.5 mm and you're bound to find a cable that you can use.
+Model A and B audio comes from a standard audio check.  Model A Plus B Plus and model 2 still have composite video or VGA.
+But it comes out of the audio jack. This is called Tip Ring Ring Sleeve. And you'll need a cable to do this. Search 
+for TRRS to RCA 3.5 mm and you're bound to find a cable that you can use.
 
-It's most often used with camcorders. But not all configurations work correctly. Normally you'll see the audio coming out of the red and white lines and the video coming out of yellow. If your cable doesn't work right away, you might want to try swapping these around. Sometimes they aren't wired the way you might expect. In most cases you can swap the colors around, and that'll work. But there are some cables that simply won't work. You'll need a voltmeter to check this.
+It's most often used with camcorders. But not all configurations work correctly. Normally you'll see the audio coming out 
+of the red and white lines and the video coming out of yellow. If your cable doesn't work right away, you might want to try 
+swapping these around. Sometimes they aren't wired the way you might expect. In most cases you can swap the colors around, and
+that'll work. But there are some cables that simply won't work. You'll need a voltmeter to check this.
 
 To confirm that your cable will work, read the resistance between the sleeve and the ground. If you have zero ohms between those two points, this cable will not work for the Raspberry Pi. 
 
@@ -83,12 +89,16 @@ If you press 2, you'll go into HDMI Safe Mode.
 More importantly, if you press 3, you'll go into a Composite PAL.
 Or 4, Composite NTSC.
 
-In my own experience, I was using a VGA monitor. And I found that I had to press 4 to get the monitor to actually show what was going on with the Raspberry Pi. All Raspberry Pis have HDMI available. Be sure to get the right cable for your monitor.
+In my own experience, I was using a VGA monitor. And I found that I had to press 4 to get the monitor to actually show what
+was going on with the Raspberry Pi. All Raspberry Pis have HDMI available. Be sure to get the right cable for your monitor.
 
-The final option is VNC or Virtual Network Connection, aka a "Headless" connection. Using VNC you can display video from one computer on another computer over the network.
+The final option is VNC or Virtual Network Connection, aka a "Headless" connection. Using VNC you can display video from one
+computer on another computer over the network.
 And again, this is useful for Headless operation, that is, without a monitor.
  Be aware that some applications don't work under VNC, particularly the Scratch programming language and Minecraft. 
  
- So for monitors, you have three options. Older monitors and a TRRS cable, shown here, HDMI monitors, such as modern flat panel TVs. You probably already have one in your house. All you'll need is the correct cable to do so. Your third option, of course, is VNC. And this doesn't require any cable at all. But it does require a bit of configuration.
+ So for monitors, you have three options. Older monitors and a TRRS cable, shown here, HDMI monitors, such as modern flat
+ panel TVs. You probably already have one in your house. All you'll need is the correct cable to do so. Your third option, of
+ course, is VNC. And this doesn't require any cable at all. But it does require a bit of configuration.
 
 
