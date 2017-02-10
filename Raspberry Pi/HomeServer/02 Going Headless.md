@@ -35,4 +35,5 @@ This time we're not interested in the current network settings, this time we're 
 <br/>
 
 
+LEFT OUT: SSH, WebMin, VNC Demos
 
