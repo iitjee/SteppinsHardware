@@ -1,0 +1,121 @@
+ 
+ OVERVIEW OF REMOTE ACCESS: USING WEAVED
+ Let's now deal with the extra software we will need while we're waiting for our parts to arrive. As long as you stay at 
+ home, you can access your Raspberry Pi and then stay connected to it using TightVNC server on your local area network. 
+ Once you step out of your door, you will no longer be able to connect to your Raspberry Pi remotely using TightVNC server.
+ When you want access to your home from outside your home, you're using the wide area network. 
+ 
+ For people that have a commercial burglar alarm system, monitoring inside the home is free. It's when they step out of
+ their home that they are charged to get access to their monitoring devices.
+ In fact, some systems that are sold have it built in that they have to use a certain monitoring system.
+ For example, Interlogix, which is General Electric Burglar Alarm Systems have to use Alarm.com for external monitoring.
+ Alarm.com will charge a monthly fee to let you securely connect to your local area network from the wide area network.
+ 
+ Since we are building our own alarm system, we're not tied to any company for monitoring our devices from outside our home.
+ There is a company called Weaved.com that provides secure wide area network to local area network connection for the 
+ Raspberry Pi as well as other devices.
+ 
+Their personal plan provides 10 remote services, automatic service provisioning,
+ and free connection for 30 minutes at a time. For remote uploading security pictures and other simple tasks, this is more 
+ than adequate for our needs and free is always a good price. When you have everything set up, you will get to this login
+ screen. It will ask you to enter your first and last name and your email address. Then they will send a verification code
+ to your email. Once you have this, you're ready to continue.
+ 
+ 
+ Configure VNC, SSH, and WebIOPi services for Weaved
+ - As time goes on, improvements get made. In this case, Raspbian Wheezy has now been updated to Raspbian Jessie. 
+ Other upgrades will be made as time goes on to improve the experience you have with Raspberry Pi.
+ However, sometimes these changes can have an impact on past procedures. In this case, the procedure to make VNC server
+ automatically start up has changed. So if you have Raspbian Jessie, you will need to follow the procedure as indicated 
+ on this page. If you've already done the install of Raspbian Jessie, you really have to start at step three here, create
+ a new et cetera system d system VNC servers.
+ 
+ You will do a select all, and let's take a look and see how we go about doing that on the Raspberry Pi. Okay, now 
+ that we're at step three, we're going to create a new file /etc/systemd/system/vncserver@.service by just typing in 
+ $sudo nano /etc/systemd/system /vncserver@.service. 
+What we want to do is select all of the code that's in https://www.raspberrypi.org/forums/viewtopic.php?t=123457, just 
+right mouse click and say Copy.
+
+Switch back to the nano editor here. Right mouse click and do Paste. Once all this stuff is in, we're just going to 
+do a Control O Enter Control X to get back, and then we're going to continue on to the next step. So as we go down here, the 
+next step is to actually run it. And to that, we're just going to select all of this again. Again, we're just going to right 
+mouse click and Copy. We're going to go back to our shell here, right mouse click, and we're going to do Paste.
+
+Follow step 5 from that page. paste the command.
+and get our prompt back. At this point, it says we have to do a reboot. 
+So to reboot, we're just going to say $shutdown - r now. And we'll pick it up when it reboots.
+At this point, the Raspberry Pi should have rebooted, so let's go to Connect to Server and let's hit Connect.
+
+Okay, once it's connected, what we're going to see is our cursor has changed. It's no longer a cursor, it's a cursor with
+a crosshair. That's a bit of a problem. So here's how we fix this problem. It's very simple. We just go into our shell, 
+and what we're going to see there is we're going to change directory into our home directory, and we can do a pwd for 
+print working directory to make sure we're in the right directory. 
+$ls -la
+cd .vnc
+and when we go there, we're going to see a number of files in here, and the one that we have to change here is xstartup.
+$sudo nano xstartup
+At the end of "solid gray" we have to put in "-cursor _name space left_ptr".
+And when we do a Control O and a Control X and reboot, that problem should have gone away. 
+$sudo shutdown - r now.
+
+ Raspberry Pi forms are one of the best ways to deal with changes to past procedures. 
+ So especially if you have Raspbian Jessie, this is something you're definitely going to have to do. 
+ Right now I'm running VNC, which allows me to connect to the Raspberry Pi from a remote computer, which is what we're 
+ seeing here. VNC is a great way to talk to Raspberry Pi from another computer while you're in your own home on your own 
+ local area network.
+
+But when we walk outside the door, we no longer have access to our local area network or the Raspberry Pi. 
+When we step outside our door, we need to connect to the wide area network that then has to connect to our local area network.
+There is a site called developer.weaved.com that provides access from the wide area network to your local area network for
+free for 30 minutes at a time. This service will provide this access for the Raspberry Pi as well as other devices such 
+as Beagle Bone, and the site deals with IOT or Internet of Things.
+
+Now what I've currently set up in here is I've got Raspberry Pi here for the Raspberry Pi B. I've got Raspberry Pi Bplus 
+here, but this is on the Raspbian Wheezy system here. What we want to do is have something set up for Raspbian Jessie. 
+We're going to have to add services to our account here. And to do that, we're going to have to be connected to the
+Raspberry Pi. So let's go back to that screen now.
+Now one of the things we want to do is we want to now go to the Downloads section. And under Downloads, it's going to
+give us the ability to actually set up for Raspbian Jessie. And that's what we want to do next. Now these are all the
+other services that we looked at earlier. So we're just going to select Raspberry Pi. 
+
+(www.weaved.com/installing-weaved-raspberry-pi-raspbian-os)
+Now as we can see here, these are the installation instructions for Raspberry Pi. And the screen is going to be a little bit slow, but let's scroll down here.
+
+Okay, so if we scroll down to the bottom here of this part, we now have the instructions. From a terminal window on your 
+internet connected Raspberry Pi, type the following commands. So we're just going to select the entire line here and 
+we're going to then Copy. And then we're going to open up our window here. And let's make sure that we're in our Pi directory. 
+So we're going to say cd, just to be sure, print working directory to make sure we're here. Then we're going to right mouse 
+click and we're going to Paste.
+$sudo apt-get update
+$sudo apt-get install weavedconnectd //install our Weaved services.
+
+Now that it's finished, we can continue on with the next part of the procedure, which is saying 
+$sudo weavedinstaller. 
+And it's going to check your network for compatibility.
+
+Fortunately for us, our network is compatible. So we're going to do option one, sign into your existing Weaved account.
+And again, you're going to have to type in your email and your password. And it's then going to drop us to a main menu. 
+And it's going to allow us to then attach or reinstall Weaved to a Service. So we're going to choose option one. And here
+we have five options. Of these options, we're going to do SSH, we're going to do VNC, and we're going to do a Custom (TCP).
+
+So let's do the SSH first. Let's do number one. Would you like to continue with the default port assignment, and we're going
+to select Y for yes. And at this point, it says enter a name for this Service Attachment. Now I'm going to call it 
+Rpi_Bplus _Jesse, and I'm going to also include SSH because it's my Raspberry Pi Bplus running Raspbian Jessie, and
+I'm installing SSH for secure shell.
+
+
+Right now it's registering it. It's going to put us back to the main menu. Again, we want to add one more. This time we're 
+going to do VNC. We're going to say yes. And again, Rpi_Bplus _Jesse is our operating system. And again, this is VNC. And
+again, it will register the service.
+
+And hopefully third time is the charm. The last thing to do is number two. Number two is going to be where we're setting
+up Web IOpi. And we'll say no for this for the default. Please enter your desired port will be 8000. We'll call this
+RPi_Bplus _Jesse _WebIOPi.
+
+And at this point, we should be able to exit.
+
+
+
+
+
+ 
