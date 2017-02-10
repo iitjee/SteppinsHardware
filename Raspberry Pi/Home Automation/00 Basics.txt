@@ -142,7 +142,54 @@ display and any electronics that you choose to mount on the back of the display 
 this, until you decide to add a display the enclosures are relatively cheap and do provide protection for the Raspberry Pi.
 
 
+Select a motion detector:
+- There are two basic kinds of motion detectors, wired and wireless. For a wired motion detector, you have to run two wires to
+ the receiving unit. You can easily determine with a volt meter when motion is being detected. However, running two wires
+ especially over longer distances is not always desirable. The wireless motion detector can wirelessly transmit to the
+ receiver without the need of wires. Even though there are a lot of wireless motion detectors out there, the Skylink wireless
+ motion detector receiver pair is not only very good value for the money, but is also easy to connect its receiver to the
+ Raspberry Pi GPIO pins.
 
+- The receiver module can work with up to four motion detectors, any one of which can trigger an alarm condition. For our
+ purposes, we will simply use one motion detector with the receiver module, even though you can later add up to three more
+ motion detectors if you wish. Please note, however, (laughs) that each motion detector is more expensive than the receiver
+ unit. For the purposes of this project, we will open up the receiver module and solder two wires that will then be connected
+ to the breadboard. We will then connect wires from the breadboard to the GPIO of the Raspberry Pi.
+
+- Therefore, you will need a soldering iron, solder, and some 22 gauge wires. When the connections are completed, you will see
+ that when motion is not detected, the voltage going to the GPIO pin will be a steady 3.3 volts. When motion is detected, you
+ will see the GPIO pin continually change from 3.3 volts to ground then back to 3.3 volts. Since the Raspberry Pi GPIO pins
+ work with 3.3 volts and ground, this is perfect for what we need.
+
+- The other pin connected from the receiver is reference brown pin. Because we will be connecting our wires across the LED,the
+ rate of voltage change between the 3.3 volts and ground is exactly the same rate at which the LED is flashing. There are a
+ lot of good vendors for this device. The best way to find the cheapest one is to use Google and search for the motion
+ detector by typing in Skylink HA434RTL and to get the manual, Skylink HA434RTL manual.
+
+- And the device itself should come with an adapter, ball head joint, indoor/outdoor motion sensor, Household Alert long range
+ receiver, and two screws for mounting the ball head to the wall.
+
+
+Optional accessories:
+- Solid state relay allow you to power on lights that you've connected to a power bar. This may be necessary if you want
+ lights to automatically come on when somebody enters. If it is dark when someone enters, you will not be able to take
+ pictures with the PI Cam. Even with the PI Cam NoIR, you will still need IR lighting to come on if you wish to take pictures
+ in a darken room. You could connect regular or infrared lights into a power bar, then turn on and off the power bar using the
+ solid state relay. We will be removing some of the plastic coating on a power bar to attach the solid state relay.
+
+- Adding a solid state relay to a power bar can be dangerous if not done properly, and should only be attempted by someone
+ that has dealt with proper electrical wiring practices. I will not assume any responsibility for any
+ injuries that happens from hooking up the solid state relay or any other devices in this project. Solid state
+ relays have either 120 volt or 240 volt output. Even though a 120 volt or 240 volt solid state relay can be used with 120
+ volt North American systems, 120 volt solid state relay cannot be used when the power outlets use 240 volts, such as those in
+ Europe.
+
+- The last thing to make sure of is the input voltage. Since a Raspberry Pi can output only 3.3 volts, you have to make sure
+ that whatever solid state relay you purchase will have a minimum input voltage of three volts. The lowest a vendor and part
+ number for solid state relays that is good for North America and Europe power outlets and has the following specs: Trigger
+ current 7.5 milliamps for 12 volts, control voltage 24 to 380 volts AC, input voltage three to 32 volts DC, and zero cross.
+ 
+ 
 
 
 
