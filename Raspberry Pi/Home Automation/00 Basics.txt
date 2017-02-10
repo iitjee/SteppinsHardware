@@ -52,8 +52,82 @@ if you want to use night vision, you can use infrared lights for your Pi NoIR ca
   when the alarm triggers using a free service called www.textbelt.com
   
   
-  
+  POWER SUPPLY:
+You'll want to be sure to get a 5 to 5.4 volt micro USB connector and 1.2 to 2.5 amps. In this case, bigger is better.
+Phone chargers work, but be sure to get a good one. Some cheaper chargers don't deliver the voltage or amperage that they say
+that they will.( the voltage will drop to 4.8 volts or less when the current draw is two amps. This may cause the Raspberry Pi 
+to reset since the voltage is too low to properly keep the Pi running.)
+(Notably, the Wi-Fi connector will draw a lot of current. The wire gauge should be at least 20 gauge to safely carry two amps.
+ The lower the wire gauge number, the greater the amount of current it can carry. Some cheap power supplies can have 30 gauge
+ wire that will melt if you try to put two amps through it)
  
+ Select a USB Wi-Fi adapter:
+  Communicating with your Raspberry Pi using an Ethernet connector means that you have to have it located close to your router.
+ Wi-Fi adapter allows you to place your Raspberry Pi wherever you can receive Wi-Fi signals. Depending on the strength of the
+ signals from your wireless router will determine if you need a Wi-Fi dongle with or without an antenna. You want to get a Wi-
+Fi connector that works right away without having to find specialized drivers if they exist at all. Make sure it has out-of-
+the-box support for Raspbian Wheezy or the latest, Raspbian Jessie. 
+When your Raspberry Pi is a long distance from your router or if later you will be putting your Raspberry Pi 
+into an enclosure, you may need an antenna.
+Make sure your Wi-Fi dongle has the same protocol as your wireless router.
+  
+ Select a Raspberry Pi camera:
+ - The Raspberry Pi Camera will be used to do video streaming as well as taking pictures of people that enter your home. 
+You'll be able to stream video to any web-based systems, such as a smart phone, personal computer, tablet etc.
+- The maximum picture resolution will be 5 megapixels but you can choose other resolutions such as 640x480 or 320x240 etc.
+ through software. 
+- There are three different cameras that can be connected to your Raspberry Pi's custom CSI bus and each has
+ a maximum resolution of 5 megapixels.
+- The Raspberry Pi Camera is used for shooting in normal lighting conditions and has a short ribbon cable. The Raspberry Pi No
+ Infrared or NoIR Camera is the same as a Pi Camera board but has NoIR, in other words No Infrared filter. It's used for night
+ vision use and you need to have an extra source of infrared illumination and it's not good for normal lighting conditions and
+ again, it has a short ribbon cable. The spy camera is used for shooting in normal lighting conditions, it's much smaller than
+ the Pi camera board and it's easier to conceal and it does come with an 11.4 inch cable.
+- Now, if you do need extra cables for the Raspberry Pi Camera or the Pi NoIR Camera, the Pi Camera and Pi NoIR Cameras come with short default cables but they can be replaced by longer cables and here are your choices, eight inch, 12 inch, 18 inch and 24
+ inch.
+
+Select a camera mount or enclosure:
+- Raspberry Pi camera cables are very flexible and can flop around and do damage to the camera if not secured. To secure the
+ camera, you can either get a camera mount or camera enclosure. These are required by both the Pi camera and Pi NoIR camera.
+ However, because the spy cam's small size, it can easily be stuck to just about any surface. Cheapest solution for the Pi
+ camera boards is the camera mount. The camera enclosure is more expensive but might give you a more finished look to your
+ project.
+
+Select a Pi Cobbler:
+- The Pi Cobbler is a small printed circuit board that plugs easily into a standard breadboard.
+ There are two types of Pi Cobbler, 
+    - a 26-pin version that works with older Raspberry Pis that have 26-pin GPIOs or general purpose input output and
+    - a 40-pin version which works with the newer Raspberry Pis that have 40-pin GPIOs. 
+Even if you have a newer Raspberry Pi that has 40 GPIO pins, we will be using a 26-pin Pi Cobbler. We can get a reduction cable that goes from the 40 GPIO pins to the 26-pin Pi Cobbler.
+
+Then we will simply connect the 26-pin Cobbler to the reduction cable. 
+There are a couple of reasons for using the 26-pin Pi Cobbler. 
+ - The first is that the 40-pin Pi Cobbler takes up a lot of room
+ on your breadboard.
+ - The second reason is that after experimenting with things hooked up to your breadboard, we will eventually want to have a printed circuit board version of your design. 
+
+Later we will use a 26-pin connector to a good quality printed circuit board to make our design more secure. 
+The following items are sold exclusively from adafruit.com, and might be used in the follow-up video.
+So, no need to concern yourselves with these at this point.
+
+
+Select a breadboard:
+- The breadboard that you select should not be too big or too small. If it's too small, then you might not have enough room to
+ connect up what you need for experimentation. If you choose a breadboard that is too big, then it becomes expensive, and you
+ may only use a portion of it, and the rest will be wasted. For the purposes of this video, I'm going to suggest the following
+ breadboard. It's not too small, and will allow you to not only hook up things that are required by this video, but will also
+ allow you to hook up other things that you may wish to experiment with.
+
+
+
+
+
+
+
+
+
+
+
  
  
  
