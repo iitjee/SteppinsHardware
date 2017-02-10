@@ -1,0 +1,63 @@
+(lyn)
+
+
+We'll be focusing on both the older Raspberry Pi B and the new Raspberry Pi, model B+, for the purposes of this course
+We'll be using Raspbian OS with VNC server already installed so that it will launch at boot up.
+make sure that we've got SSH and our localization set up properly.
+
+(With Jessie it's very simple. You just go down to Preferences, you go to Raspberry Pi configuration. 
+What you're going to do is go to Interfaces. For SSH, you're going to enable it just by clicking here and localization 
+you can just click here and go to Time Zone, and under Time Zone pick whatever time zone you happen to be in.
+As soon as you do and say okay, you're ready to go. It's a lot easier than using sudo Raspi-config and it's done. It's very
+important that you have your time zone set properly or the hour, minute, seconds that you're going to get will not make sense.)
+ If you don't set your localization, it'll set you up at Greenwich Mean Time which is what you don't want to have as your default.
+ 
+ 
+ 
+Required:
+A power relay, 
+a power bar,
+motion detector, and
+a Pi cam.
+
+
+Overview of  the alarm project:
+- There are six basic features for your Raspberry Pi alarm system:
+video streaming,
+wireless motion detector, 
+solid state relay, 
+alarm picture storage by DATE, 
+free remote access to your Pi alarm from anywhere in the world, and free SMS to your cell phone.
+
+Video streaming, you can use it as a baby monitor while you're in your home using your local area network. 
+When you're outside your home you can use the wide area network and use it as a Nanny cam. 
+
+Wireless motion detector allows you placement of your Raspberry Pi system anywhere that you have access to WiFi, that means
+in any room, office, anywhere that you have WiFi you have access to your Raspberry Pi alarm system.
+
+Solid state relay allows you to turn on your lights when motion is detected, 
+and this can be regular lighting if you want to use the Pi camera, or
+if you want to use night vision, you can use infrared lights for your Pi NoIR camera. 
+
+ Alarm picture storage by DATE, when the alarm is triggered, you can store pictures based on the date that they were taken. 
+ You have free remote access to your Pi alarm from anywhere in the world using a free system called www.Developer.weaved.com 
+ allows you free access to VNC, SSH, and WebIOPi, and VNC allows you remote control with screen sharing.
+ 
+ SSH we're going to be using a little differently. We're going to be using it with FTP to allow you to transfer file, picture 
+ directories from your Raspberry Pi to any remote computer anywhere in the world, and if you wish, you can also use FTP to
+ transfers files from a remote computer to your Raspberry Pi. 
+ 
+  We're going to be using WebIOPi to turn on and off your security system through any browser on any cell phone, tablet, 
+  or computer system. To top it all off, we have the ability to send ourselves free SMS messages to your cell phone 
+  when the alarm triggers using a free service called www.textbelt.com
+  
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
