@@ -1,4 +1,4 @@
-Intro <br/>
+<b>Intro</b> <br/>
 In this module, we'll get connected to the Raspberry Pi home server over the network.
 We'll look at two different methods of assigning the Pi a static network address so that you can find it easily, then we'll look at three different ways of connecting to the Pi remotely, through SSH, over the web, and finally through a remote desktop session. After this module, there will be no need to keep the Pi connected to your monitor, keyboard or mouse, this will allow you to place the server up on a shelf safely out of the way. I keep mine next to the network router in my basement.
 
@@ -21,7 +21,7 @@ Demo (open rpi terminal): <br/>
 </br>
  For nearly all home networks this will be 255.255.255.0. The second piece of information you'll need is the default gateway. This is the IP address of your router. If you don't know this off the top of your head, just run
  ```route -n,```
- and look for the line with a UG on it. Write down the gateway value. Using the nano editor, edit the network configuration file, which is located at etc/network/interfaces. Look for the line that starts with iface eth0. This is the first, and in the case of the Raspberry Pi, the only Ethernet port. At the end of the line, you'll see the letters dhcp. This line is telling the Raspberry Pi to ask the router for an IP address over the Ethernet port. Change dhcp to static. Then we'll need to add a few lines for settings that the router would have provided over dhcp. The first is the address. In my case I've decided to go with 192.168.1.2. Next is the netmask, this is the 255.255.255.0 that we wrote down earlier. And finally, the gateway setting. So this is the router's IP address, in my case 192.168.1.1. Exit nano, saving the file, and reboot the Raspberry Pi with sudo reboot. Once everything is booted back up you can type ifconfig again to see the changes.
+ and look for the line with a UG on it. Write down the gateway value. Using the nano editor, edit the network configuration file, which is located at ```etc/network/interfaces```. Look for the line that starts with iface eth0. This is the first, and in the case of the Raspberry Pi, the only Ethernet port. At the end of the line, you'll see the letters dhcp. This line is telling the Raspberry Pi to ask the router for an IP address over the Ethernet port. Change dhcp to static. Then we'll need to add a few lines for settings that the router would have provided over dhcp. The first is the address. In my case I've decided to go with 192.168.1.2. Next is the netmask, this is the 255.255.255.0 that we wrote down earlier. And finally, the gateway setting. So this is the router's IP address, in my case 192.168.1.1. Exit nano, saving the file, and reboot the Raspberry Pi with ```sudo reboot```. Once everything is booted back up you can type ```ifconfig``` again to see the changes.
 
 
 
