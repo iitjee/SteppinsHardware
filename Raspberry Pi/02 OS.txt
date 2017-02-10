@@ -1,0 +1,51 @@
+
+
+- Now that we're ready to boot up the Raspberry Pi, let's step through some of the different operating sytems that you 
+can use with your new toy. 
+
+https://www.raspberrypi.org/downloads/
+Over time, I've noticed that operating systems come and go, some become obsolete, and some are rewritten, especially 
+with the release of the Raspberry Pi 2
+
+So the first time that you put NOOBS into your Raspberry Pi, you'll be presented with this screen, and this is the operating 
+system chooser. There's a bunch of different operating systems that you can take a look at here.
+
+Let's install Raspbian, most popular
+(check it and click install)
+It's a version of Debian, one of the most popular Linux distributions and it's also one of the most popular
+Raspberry Pi operating system.  It's well-documented so it's a good place to start.
+On the boot-up screen, There are nine options, Expand Filesystem, Change User Password, Enable Boot to Desktop/Scratch,  etc
+ Right now, let's configure this operating system so that it automatically boots up to the desktop, and here's how to do that.
+scroll down to option number three which is Enable Boot to Desktop/Scratch. I'm going to hit return or enter. 
+ I'm presented with this screen which is `Choose the boot option`.
+ let's Desktop Log in as user 'pi'  (second options)
+  
+ OpenELEC actually stands for Open Embedded Linux Entertainment Center and it's a home theater setup. 
+ Now, OpenELEC also supports SSH which is short for Secure Shell. This is an advanced feature and for the purpose of our 
+ demonstration here, you can just simply select the default, do take a note that the default user is root and the default
+ password is openelec.
+ Things that we could do using OpenELEC on a Raspberry Pi is we can share pictures, we can watch videos, we can play
+ music, there are programs that can be installed and then of course there's a system file where you can go over and change 
+ your settings, you can look at what files are located on your system, change your profiles, other important things.
+
+
+We're now looking at RISC OS. I installed this operating system in the same way as we installed Raspbian.
+ When you finish the installation for RISC OS, this is what you'll be looking at. I would note that the install for
+ RISC OS is significantly faster than installing Raspbian and it seems to run a little bit faster. 
+ Let's take a look. First of all, you're getting a web browser with a welcome screen that tells you a little bit about RISC OS. 
+ The middle key, the third key on a three button mouse is being used. So for example, if you go to one of the applications
+ in the lower right hand corner, and these are applications that are running, if you left-click, you will start the
+ application. Sometimes if you right-click, you get a special message or a special feature, but you'll want to be aware
+ that you can middle-click and you'll get a third menu.
+In order to install additional applications, you'll need to use PackMan or Store and I'm going to show you PackMan.
+ Double click it (which is on desktop) and we're going to grab Barrage and unpack.
+ - Go to the small disk icon in the lower left hand corner, you'll see we have a bunch of folders that contain applications 
+ or library files or programming tools. I'm going to open up the Apps folder, double-click.
+ - In the lower left hand corner we have a Games folder and that's where Barrage has appeared, so let's go ahead and 
+ launch that by double-clicking on it. And now we have a game running, so let's go ahead and enter the shooting range! \m/
+ 
+ Windows10 OS
+ https://blogs.windows.com/buildingapps/2016/02/29/windows-10-iot-core-support-for-raspberry-pi-3/#6XqtWhM3IQSPFFO5.97
+ 
+ 
+ 
