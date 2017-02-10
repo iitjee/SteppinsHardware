@@ -111,8 +111,49 @@ again, it will register the service.
 And hopefully third time is the charm. The last thing to do is number two. Number two is going to be where we're setting
 up Web IOpi. And we'll say no for this for the default. Please enter your desired port will be 8000. We'll call this
 RPi_Bplus _Jesse _WebIOPi.
-
 And at this point, we should be able to exit.
+
+Patch WebIOPi for Raspberry Pi B+ and 2:
+(github doublebind/raspi)
+- Raspi from doublebind gives us a patch that we need to make the WebIOPi utility work both on the Raspberry Pi 2 and 
+the Raspberry Pi B+. WebIOPi will work on the Raspberry Pi B but it will not work on the newer ones without this patch
+installed. Now, if we are on this site and we hit the spacebar, then we just hit a couple up arrows, what we're going to
+do is we're going to find all the information. So this is the patch for Raspberry Pi B+ and Pi 2, and all we have to 
+do is actually follow through this, and again, we're just going to copy and paste this into our shell.
+
+ it's going to get WebIOPi. Once it's in, we're then going to grab the next one which is going to do a tape archive, and
+we're just going to copy. Go back here and paste. Hit Enter.
+
+When that's done, we're going to change directory. Now we could do it by hand but it's a lot easier to just copy and paste.
+We're just going to copy that. Back into here. Paste it. And then we just have to do a couple more lines and we're pretty
+much ready to go. So let's take a look at the next one. We're going to get the patch. We're going to copy it, paste it into 
+here.
+
+
+Do you want to access WebIOPi over the Internet? We're going to say Y for yes and 
+we're going to say again yes and we're going to say, would you like to continue with the default port assignment, 
+ we're going to say yes. Since we've already set 
+up the service, we can actually control Ctrl C out and get back to the prompt. Now there's still more to do. If we go back
+to the webpage here, one of the things we're going to see is how to start WebIOPi, and it says Raspian version of NOOBS later
+than 1.4.2 and that definitely takes into account Jessie, so we're going to have to add these extra lines to our prompt, and 
+we're just going to copy and paste as we've done before, and continue on with the last part of the things we need to do to 
+make this work perfectly.
+
+We change directory and we have to do a sudo wget. Let's copy and paste that. And go on to the next step, so we've done this 
+sudo. Go back and do sudo systemctl start webiopi, so we can start up this service. And finally, we're going to enable WebIOPi. So at this point, our patch is complete, which means WebIOPi will work.
+
+It will work properly. It will boot up properly. And it will work now on Raspberry PI 2s, B+s, and it always has worked
+up to this point with Raspberry Pi B
+
+
+
+
+
+
+
+
+
+
 
 
 
