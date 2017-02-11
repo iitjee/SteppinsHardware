@@ -13,3 +13,7 @@ https://www.udemy.com/make-a-living-as-a-smart-home-installer/
 
 https://azure.microsoft.com/en-in/resources/samples/iot-hub-c-raspberrypi-getstartedkit/
 https://developer.microsoft.com/en-us/windows/iot
+
+
+(related to a youtube video: added in playlist)
+https://github.com/KhaosT/HAP-NodeJS
