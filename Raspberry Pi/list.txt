@@ -1,0 +1,15 @@
+Voice Commands
+https://github.com/iitjee/PiAUISuite
+
+
+
+
+https://www.packtpub.com/hardware-and-creative/building-home-security-system-raspberry-pi
+https://www.packtpub.com/all?search=raspberry+pi&type_list%5Bbooks%5D=books&type_list%5Bvideos%5D=videos&offset=12&rows=&sort=
+
+https://www.udemy.com/speech-recognition-based-home-automation/
+https://www.udemy.com/facial-recognition-using-raspberry-pi-and-opencv/
+https://www.udemy.com/make-a-living-as-a-smart-home-installer/
+
+https://azure.microsoft.com/en-in/resources/samples/iot-hub-c-raspberrypi-getstartedkit/
+https://developer.microsoft.com/en-us/windows/iot
