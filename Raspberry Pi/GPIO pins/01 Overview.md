@@ -5,3 +5,9 @@ On all of these models, the GPIO pins are easy to identify. An interesting thing
 <br/><br/>
 The Raspberry Pi Compute is designed for industrial strength computing, and doesn't have any GPIO at all, rather, all of the broadcom signals go out of the fingers at the bottom of the board. If you're going to use the Raspberry Pi Model Compute, you're probably doing some pretty serious work and you're beyond the scope of this course. I won't be discussing the Raspberry Pi Model Compute any further in this course.
 <br/><br/>
+The Raspberry Pi can be programmed in many different languages. C++, Java, Mathematica, Ruby, Lua, Smalltalk, and more. But most commonly, it's programmed in either Python or Scratch. Both Python and Scratch are installed as part of Raspbian, the most common operating system used with the Raspberry Pi.
+<br/><br/>
+Throughout this course, we'll use Python and Scratch to illustrate how to program the Raspberry Pi GPIO. You may choose a different language, but be aware that GPIO support, in those languages, may be outdated or non-existent. If you are using Python, you'll find it's already installed with the latest version of Raspbian.
+<br/><br/>
+
+Scratch support of GPIO is easy under the latest version of Raspbian. Scratch is already installed, as well as the necessary GPIO libraries. If you're using the latest version of Raspbian, there isn't anything left to do. GPIO support on earlier versions of Raspbian required a custom version of Scratch. It's gonna be easier to just install the latest version of Raspbian.
