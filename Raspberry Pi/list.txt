@@ -13,6 +13,10 @@ Connecting iPhone with RPi: http://www.daveconroy.com/how-to-tether-your-raspber
 - (Python in  Node) https://github.com/extrabacon/python-shell
 
 - (Camera) https://developer.appear.in/
+Game Changer: http://www.thingiverse.com/thing:274468
+http://makezine.com/projects/raspberry-eye-remote-servo-cam/
+https://github.com/MattStultz/PiCam/blob/master/templates/picam.html
+
 
 Health:
 https://developer.microsoftband.com/cloudAPI/Explorer#!/Activities/Activities_Get
