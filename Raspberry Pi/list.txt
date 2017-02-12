@@ -4,8 +4,18 @@ TODO:
 - (List of PS projects) https://www.pluralsight.com/blog/life/celebrate-pi-day-with-a-raspberry--pidayproject
 - (Jasper) https://jasperproject.github.io/
 - (Few more ideas) http://www.hgtv.com/remodel/mechanical-systems/top-home-automation-project-ideas
+
+Making Nodejs API with sockets: http://www.instructables.com/id/Easy-NodeJS-WebSockets-LED-Controller-for-Raspberr/
+
+
 - (Manth) https://docs.microsoft.com/en-us/azure/app-service-api/app-service-api-nodejs-api-app
 - (GraphQL) https://www.reindex.io/pricing/
+- (Python in  Node) https://github.com/extrabacon/python-shell
+
+
+Health:
+https://developer.microsoftband.com/cloudAPI/Explorer#!/Activities/Activities_Get
+https://developer.microsoftband.com/cloudAPI
 
 Voice Commands
 https://github.com/iitjee/PiAUISuite
