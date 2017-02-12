@@ -1,7 +1,7 @@
 TODO:
 - https://medium.com/@dvd.ciri/raspberry-pi-firebase-home-automation-d5a237f18fb5#.m5rb1in0i
 - (RPi and Arduino Intruder Alert) https://app.pluralsight.com/player?course=raspberry-pi-for-developers&author=jon-flanders&name=raspberry-pi-for-developers-m3&clip=7&mode=live
-
+- (List of PS projects) https://www.pluralsight.com/blog/life/celebrate-pi-day-with-a-raspberry--pidayproject
 
 Voice Commands
 https://github.com/iitjee/PiAUISuite
