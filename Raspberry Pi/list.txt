@@ -5,6 +5,7 @@ TODO:
 - (Jasper) https://jasperproject.github.io/
 - (Few more ideas) http://www.hgtv.com/remodel/mechanical-systems/top-home-automation-project-ideas
 - (Manth) https://docs.microsoft.com/en-us/azure/app-service-api/app-service-api-nodejs-api-app
+- (GraphQL) https://www.reindex.io/pricing/
 
 Voice Commands
 https://github.com/iitjee/PiAUISuite
