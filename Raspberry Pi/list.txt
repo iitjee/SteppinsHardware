@@ -25,3 +25,8 @@ https://developer.microsoft.com/en-us/windows/iot
 
 (related to a youtube video: added in playlist)
 https://github.com/KhaosT/HAP-NodeJS
+
+
+
+/* Catch phrases for demonstration  */
+Let there be light!
