@@ -4,6 +4,7 @@ TODO:
 - (List of PS projects) https://www.pluralsight.com/blog/life/celebrate-pi-day-with-a-raspberry--pidayproject
 - (Jasper) https://jasperproject.github.io/
 - (Few more ideas) http://www.hgtv.com/remodel/mechanical-systems/top-home-automation-project-ideas
+- (Manth) https://docs.microsoft.com/en-us/azure/app-service-api/app-service-api-nodejs-api-app
 
 Voice Commands
 https://github.com/iitjee/PiAUISuite
