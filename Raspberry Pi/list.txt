@@ -12,6 +12,7 @@ Connecting iPhone with RPi: http://www.daveconroy.com/how-to-tether-your-raspber
 - (GraphQL) https://www.reindex.io/pricing/
 - (Python in  Node) https://github.com/extrabacon/python-shell
 
+- (Camera) https://developer.appear.in/
 
 Health:
 https://developer.microsoftband.com/cloudAPI/Explorer#!/Activities/Activities_Get
