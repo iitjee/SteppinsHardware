@@ -7,6 +7,7 @@ TODO:
 
 Making Nodejs API with sockets: http://www.instructables.com/id/Easy-NodeJS-WebSockets-LED-Controller-for-Raspberr/
 Connecting iPhone with RPi: http://www.daveconroy.com/how-to-tether-your-raspberry-pi-with-your-iphone-5/
+Band example with health: https://github.com/BandOnTheRun/ms-band-azure
 
 - (Manth) https://docs.microsoft.com/en-us/azure/app-service-api/app-service-api-nodejs-api-app
 - (GraphQL) https://www.reindex.io/pricing/
