@@ -1,13 +1,14 @@
 TODO:
 - https://medium.com/@dvd.ciri/raspberry-pi-firebase-home-automation-d5a237f18fb5#.m5rb1in0i
-- https://app.pluralsight.com/player?course=raspberry-pi-for-developers&author=jon-flanders&name=raspberry-pi-for-developers-m3&clip=7&mode=live
+- (RPi and Arduino Intruder Alert) https://app.pluralsight.com/player?course=raspberry-pi-for-developers&author=jon-flanders&name=raspberry-pi-for-developers-m3&clip=7&mode=live
 
 
 Voice Commands
 https://github.com/iitjee/PiAUISuite
 
 
-
+SD Card: (check this when buying)
+http://elinux.org/RPi_SD_cards
 
 https://www.packtpub.com/hardware-and-creative/building-home-security-system-raspberry-pi
 https://www.packtpub.com/all?search=raspberry+pi&type_list%5Bbooks%5D=books&type_list%5Bvideos%5D=videos&offset=12&rows=&sort=
