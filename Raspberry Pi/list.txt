@@ -31,7 +31,8 @@ https://github.com/hackerkid/bots
 Game Changer: http://www.thingiverse.com/thing:274468
 http://makezine.com/projects/raspberry-eye-remote-servo-cam/
 https://github.com/MattStultz/PiCam/blob/master/templates/picam.html
-
+http://www.instructables.com/id/Pan-Tilt-face-tracking-with-the-raspberry-pi/step2/Get-your-raspberry-pi-ready/
+Face Recog tut: https://www.open-electronics.org/raspberry-pi-and-the-camera-pi-module-face-recognition-tutorial/
 
 Health:
 https://developer.microsoftband.com/cloudAPI/Explorer#!/Activities/Activities_Get
@@ -60,3 +61,7 @@ https://github.com/KhaosT/HAP-NodeJS
 
 /* Catch phrases for demonstration  */
 Let there be light!
+
+
+Why React?
+- One of the benefits of React is that it handles state very elegantly. React makes it a bit easier for us to build large applications that deal with a lot of changing data. Combining React components with web sockets provides a graceful way to share real time data between the server and many clients.
