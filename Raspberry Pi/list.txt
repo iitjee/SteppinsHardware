@@ -16,6 +16,12 @@ https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-node-node-getstarted
 
 
 (Speech to Text RN) https://facebook.github.io/react-native/docs/native-modules-ios.html
+Voice Commands
+https://github.com/iitjee/PiAUISuite
+
+Bots:
+https://github.com/hackerkid/bots
+
 
 - (Manth) https://docs.microsoft.com/en-us/azure/app-service-api/app-service-api-nodejs-api-app
 - (GraphQL) https://www.reindex.io/pricing/
@@ -31,8 +37,6 @@ Health:
 https://developer.microsoftband.com/cloudAPI/Explorer#!/Activities/Activities_Get
 https://developer.microsoftband.com/cloudAPI
 
-Voice Commands
-https://github.com/iitjee/PiAUISuite
 
 
 SD Card: (check this when buying)
