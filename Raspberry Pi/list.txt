@@ -15,6 +15,8 @@ https://azure.microsoft.com/en-in/resources/samples/iot-hub-c-raspberrypi-getsta
 https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-node-node-getstarted
 
 
+(Speech to Text RN) https://facebook.github.io/react-native/docs/native-modules-ios.html
+
 - (Manth) https://docs.microsoft.com/en-us/azure/app-service-api/app-service-api-nodejs-api-app
 - (GraphQL) https://www.reindex.io/pricing/
 - (Python in  Node) https://github.com/extrabacon/python-shell
