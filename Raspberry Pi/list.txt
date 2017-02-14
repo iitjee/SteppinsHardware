@@ -26,6 +26,14 @@ Bots:
 https://github.com/hackerkid/bots
 
 
+Augmented Reality: (Photostiching application)
+https://www.ptgui.com/
+http://www.arcsoft.com/topics/panorama-maker/stitch-photos-to-panorama.html
+https://vr.google.com/jump/
+https://www.google.com/streetview/publish/
+
+
+
 - (Manth) https://docs.microsoft.com/en-us/azure/app-service-api/app-service-api-nodejs-api-app
 - (GraphQL) https://www.reindex.io/pricing/
 - (Python in  Node) https://github.com/extrabacon/python-shell
