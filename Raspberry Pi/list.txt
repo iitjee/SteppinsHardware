@@ -6,6 +6,8 @@ TODO:
 - (Few more ideas) http://www.hgtv.com/remodel/mechanical-systems/top-home-automation-project-ideas
 - Dresser AI
 
+Microsoft Cognitive APIs list: https://www.microsoft.com/cognitive-services/en-us/pricing
+
 Making Nodejs API with sockets: http://www.instructables.com/id/Easy-NodeJS-WebSockets-LED-Controller-for-Raspberr/
 Connecting iPhone with RPi: http://www.daveconroy.com/how-to-tether-your-raspberry-pi-with-your-iphone-5/
 Band example with health: https://github.com/BandOnTheRun/ms-band-azure
@@ -65,4 +67,6 @@ Let there be light!
 
 
 Why React?
-- One of the benefits of React is that it handles state very elegantly. React makes it a bit easier for us to build large applications that deal with a lot of changing data. Combining React components with web sockets provides a graceful way to share real time data between the server and many clients.
+- One of the benefits of React is that it handles state very elegantly. React makes it a bit easier for us to build large
+ applications that deal with a lot of changing data. Combining React components with web sockets provides a graceful way to 
+share real time data between the server and many clients.
