@@ -31,7 +31,7 @@ https://www.ptgui.com/
 http://www.arcsoft.com/topics/panorama-maker/stitch-photos-to-panorama.html
 https://vr.google.com/jump/
 https://www.google.com/streetview/publish/
-
+https://azure.microsoft.com/en-in/services/cognitive-services/computer-vision/
 
 
 - (Manth) https://docs.microsoft.com/en-us/azure/app-service-api/app-service-api-nodejs-api-app
