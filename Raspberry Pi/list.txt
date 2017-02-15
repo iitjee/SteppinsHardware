@@ -12,6 +12,9 @@ Making Nodejs API with sockets: http://www.instructables.com/id/Easy-NodeJS-WebS
 Connecting iPhone with RPi: http://www.daveconroy.com/how-to-tether-your-raspberry-pi-with-your-iphone-5/
 Band example with health: https://github.com/BandOnTheRun/ms-band-azure
 
+
+Continuously get track of GPS data of family members and store them in server.
+
 (Getting sensor data)
 https://azure.microsoft.com/en-in/blog/build-an-azure-app-service-to-record-raspberry-pi-sensor-data/
 https://azure.microsoft.com/en-in/resources/samples/iot-hub-c-raspberrypi-getstartedkit/
