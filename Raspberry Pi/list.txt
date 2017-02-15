@@ -5,6 +5,7 @@ TODO:
 - (Jasper) https://jasperproject.github.io/
 - (Few more ideas) http://www.hgtv.com/remodel/mechanical-systems/top-home-automation-project-ideas
 - Dresser AI
+- https://github.com/SentientHome/SentientHome
 
 Microsoft Cognitive APIs list: https://www.microsoft.com/cognitive-services/en-us/pricing
 
@@ -43,12 +44,15 @@ https://github.com/aframevr/awesome-aframe
 - (GraphQL) https://www.reindex.io/pricing/
 - (Python in  Node) https://github.com/extrabacon/python-shell
 
-- (Camera) https://developer.appear.in/
+- (Camera) CAMERA SHOULD ROTATE AS THE USER WITH PHONE IS TURNED SIDEWAYS!!!!
+https://developer.appear.in/
 Game Changer: http://www.thingiverse.com/thing:274468
 http://makezine.com/projects/raspberry-eye-remote-servo-cam/
 https://github.com/MattStultz/PiCam/blob/master/templates/picam.html
 http://www.instructables.com/id/Pan-Tilt-face-tracking-with-the-raspberry-pi/step2/Get-your-raspberry-pi-ready/
 Face Recog tut: https://www.open-electronics.org/raspberry-pi-and-the-camera-pi-module-face-recognition-tutorial/
+
+
 
 Health:
 https://developer.microsoftband.com/cloudAPI/Explorer#!/Activities/Activities_Get
