@@ -31,13 +31,13 @@ https://www.sitepoint.com/premium/courses/ms-bots-2939/lesson/1/step/1#discussio
 
 
 
-Augmented Reality: (Photostiching application)
+360 View (Photostiching application)
 https://www.ptgui.com/
 http://www.arcsoft.com/topics/panorama-maker/stitch-photos-to-panorama.html
 https://vr.google.com/jump/
 https://www.google.com/streetview/publish/
 https://azure.microsoft.com/en-in/services/cognitive-services/computer-vision/
-
+https://github.com/aframevr/awesome-aframe
 
 - (Manth) https://docs.microsoft.com/en-us/azure/app-service-api/app-service-api-nodejs-api-app
 - (GraphQL) https://www.reindex.io/pricing/
