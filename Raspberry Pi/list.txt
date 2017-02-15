@@ -24,6 +24,8 @@ https://github.com/iitjee/PiAUISuite
 
 Bots:
 https://github.com/hackerkid/bots
+https://www.sitepoint.com/premium/courses/ms-bots-2939/lesson/1/step/1#discussion (MSbot using Node)
+
 
 
 Augmented Reality: (Photostiching application)
