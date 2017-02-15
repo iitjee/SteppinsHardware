@@ -29,8 +29,9 @@ https://github.com/iitjee/PiAUISuite
 Bots:
 https://github.com/hackerkid/bots
 https://www.sitepoint.com/premium/courses/ms-bots-2939/lesson/1/step/1#discussion (MSbot using Node)
-
-
+https://www.sitepoint.com/premium/users/estebanhb2 (other slack course is working)
+https://github.com/abdelhai/awesome-bots
+https://docs.botframework.com/en-us/faq/ (list of platforms you can deploy ms bot)
 
 360 View (Photostiching application)
 https://www.ptgui.com/
@@ -51,7 +52,9 @@ http://makezine.com/projects/raspberry-eye-remote-servo-cam/
 https://github.com/MattStultz/PiCam/blob/master/templates/picam.html
 http://www.instructables.com/id/Pan-Tilt-face-tracking-with-the-raspberry-pi/step2/Get-your-raspberry-pi-ready/
 Face Recog tut: https://www.open-electronics.org/raspberry-pi-and-the-camera-pi-module-face-recognition-tutorial/
-
+Take snap-shots when asked and prompt the user to ask where to store
+Store photos in user's onedrive account
+Send me the last two pictures, sassy! "One moment sir!"
 
 
 Health:
