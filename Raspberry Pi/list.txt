@@ -16,6 +16,7 @@ TODO:
 - Slide for IoT http://www.slideshare.net/JakubPavlik1/smartcity-iot-on-kubernetes-and-openstack
 ngrok http://dsernst.com/2015/02/17/ngrok-is-awesome/
 - Kinect based Home automation : http://castleos.com/Develop/
+- http://hubpages.com/living/Home-Automation-Sensors
 
 https://egghead.io/lessons/node-js-setup-an-nginx-proxy-for-a-node-js-app-with-docker
 https://egghead.io/lessons/node-js-build-a-simple-node-js-web-server-with-docker
