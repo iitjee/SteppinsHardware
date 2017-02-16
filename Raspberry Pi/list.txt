@@ -17,6 +17,8 @@ TODO:
 ngrok http://dsernst.com/2015/02/17/ngrok-is-awesome/
 - Kinect based Home automation : http://castleos.com/Develop/
 - http://hubpages.com/living/Home-Automation-Sensors
+https://www.youtube.com/watch?v=u5oTz1e5qqE
+
 
 https://egghead.io/lessons/node-js-setup-an-nginx-proxy-for-a-node-js-app-with-docker
 https://egghead.io/lessons/node-js-build-a-simple-node-js-web-server-with-docker
