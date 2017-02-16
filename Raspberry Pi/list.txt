@@ -18,6 +18,9 @@ ngrok http://dsernst.com/2015/02/17/ngrok-is-awesome/
 - Kinect based Home automation : http://castleos.com/Develop/
 - http://hubpages.com/living/Home-Automation-Sensors
 https://www.youtube.com/watch?v=u5oTz1e5qqE
+- Drag and drop React Interface
+- GraphQL API DOCS https://app.stoplight.io/pricing?utm_source=apidocs-api
+- WIndows IOT Core: https://developer.microsoft.com/en-us/windows/iot/GetStarted#
 
 
 https://egghead.io/lessons/node-js-setup-an-nginx-proxy-for-a-node-js-app-with-docker
