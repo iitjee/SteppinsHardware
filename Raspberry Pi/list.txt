@@ -6,6 +6,22 @@ TODO:
 - (Few more ideas) http://www.hgtv.com/remodel/mechanical-systems/top-home-automation-project-ideas
 - Dresser AI
 - https://github.com/SentientHome/SentientHome
+- For authenticaltion, put docker login page. Very simpistic
+- Connect Docker with Azure: https://linuxacademy.com/azure/training/course/name/microsoft-azure-docker-container-hosting
+- Machine learning with Azure: https://linuxacademy.com/bigdata/training/course/name/machine-learning-with-azure
+- Kubernetes? https://linuxacademy.com/devops/training/course/name/running-container-clusters-with-kubernetes
+- D3.js Graphs (React-socket course has this section)
+- https://www.ibm.com/developerworks/library/iot-docker-containers/
+- (SEcurity of Containers) https://www.linux.com/news/future-iot-containers-aim-solve-security-crisis
+- Slide for IoT http://www.slideshare.net/JakubPavlik1/smartcity-iot-on-kubernetes-and-openstack
+ngrok http://dsernst.com/2015/02/17/ngrok-is-awesome/
+- Kinect based Home automation : http://castleos.com/Develop/
+
+https://egghead.io/lessons/node-js-setup-an-nginx-proxy-for-a-node-js-app-with-docker
+https://egghead.io/lessons/node-js-build-a-simple-node-js-web-server-with-docker
+https://egghead.io/lessons/node-js-use-google-sheets-with-node-and-express-in-fun-side-projects
+https://blog.docker.com/2016/06/dockercon-video-mobys-cool-hacks/
+https://www.ibm.com/developerworks/library/iot-docker-containers/
 
 Microsoft Cognitive APIs list: https://www.microsoft.com/cognitive-services/en-us/pricing
 
@@ -34,6 +50,8 @@ https://github.com/abdelhai/awesome-bots
 https://docs.botframework.com/en-us/faq/ (list of platforms you can deploy ms bot)
 Sassy, my keys are in Drawer..... (Later( Sassy, where are my keys?
 Let's party ====> Party music+  RGB lights mash over
+https://docs.botframework.com/en-us/node/builder/guides/deploying-to-azure/#navtitle
+
 
 
 360 View (Photostiching application)
