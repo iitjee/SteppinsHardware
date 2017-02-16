@@ -87,6 +87,7 @@ http://www.instructables.com/id/Pan-Tilt-face-tracking-with-the-raspberry-pi/ste
 Face Recog tut: https://www.open-electronics.org/raspberry-pi-and-the-camera-pi-module-face-recognition-tutorial/
 http://www.instructables.com/id/Overview/
 http://www.mechanic37.com/2016/05/Mouse-interface-controlled-servo-Arduino.html
+https://microsoft.hackster.io/en-US/windows-iot/security-camera-579b7f
 
 Take snap-shots when asked and prompt the user to ask where to store
 Store photos in user's onedrive account
