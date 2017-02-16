@@ -24,6 +24,12 @@ https://egghead.io/lessons/node-js-use-google-sheets-with-node-and-express-in-fu
 https://blog.docker.com/2016/06/dockercon-video-mobys-cool-hacks/
 https://www.ibm.com/developerworks/library/iot-docker-containers/
 
+KInect:
+https://github.com/Kinect/PyKinect2
+https://github.com/Kinect/samples
+https://github.com/Kinect/Docs
+http://kinect.github.io/tutorial/
+
 Microsoft Cognitive APIs list: https://www.microsoft.com/cognitive-services/en-us/pricing
 
 Making Nodejs API with sockets: http://www.instructables.com/id/Easy-NodeJS-WebSockets-LED-Controller-for-Raspberr/
