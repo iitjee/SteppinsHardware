@@ -23,6 +23,8 @@ https://www.youtube.com/watch?v=u5oTz1e5qqE
 - WIndows IOT Core: https://developer.microsoft.com/en-us/windows/iot/GetStarted#
 
 
+http://www.pyimagesearch.com/2016/01/25/real-time-panorama-and-image-stitching-with-opencv/
+
 https://egghead.io/lessons/node-js-setup-an-nginx-proxy-for-a-node-js-app-with-docker
 https://egghead.io/lessons/node-js-build-a-simple-node-js-web-server-with-docker
 https://egghead.io/lessons/node-js-use-google-sheets-with-node-and-express-in-fun-side-projects
@@ -127,3 +129,8 @@ Why React?
 - One of the benefits of React is that it handles state very elegantly. React makes it a bit easier for us to build large
  applications that deal with a lot of changing data. Combining React components with web sockets provides a graceful way to 
 share real time data between the server and many clients.
+
+
+
+
+very cool: https://www.wia.io/product/integrate
