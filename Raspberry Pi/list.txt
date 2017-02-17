@@ -24,6 +24,14 @@ https://www.youtube.com/watch?v=u5oTz1e5qqE
 - Money Transfer
 - Something for blind and visually challenged (say, assistant says what's before the blind) (https://github.com/dilawar/eye-blink-detector)
 -Watch https://app.pluralsight.com/library/courses/hack-your-api-first/table-of-contents
+- Kubernetes (Linux academy)
+
+REACT NATIVE:
+https://github.com/gabrielbull/react-desktop
+https://channel9.msdn.com/Shows/This+Week+On+Channel+9/TWC9-Build--Edge-on-Demand-VS-Code-10-React-Native-UWP-Windows-10-Updates-and-more
+https://github.com/ReactWindows/react-native-windows
+https://github.com/ptmt/react-native-macos
+
 
 http://www.pyimagesearch.com/2016/01/25/real-time-panorama-and-image-stitching-with-opencv/
 
@@ -59,6 +67,7 @@ Voice Commands
 https://github.com/iitjee/PiAUISuite
 
 Bots:
+REGULAR EXPRESSIONS
 https://github.com/hackerkid/bots
 https://www.sitepoint.com/premium/courses/ms-bots-2939/lesson/1/step/1#discussion (MSbot using Node)
 https://www.sitepoint.com/premium/users/estebanhb2 (other slack course is working)
@@ -67,8 +76,8 @@ https://docs.botframework.com/en-us/faq/ (list of platforms you can deploy ms bo
 Sassy, my keys are in Drawer..... (Later( Sassy, where are my keys?
 Let's party ====> Party music+  RGB lights mash over
 https://docs.botframework.com/en-us/node/builder/guides/deploying-to-azure/#navtitle
-
-
+(https://docs.botframework.com/en-us/node/builder/chat/session/#starting-and-ending-dialogs)
+(don't forget to add -inspect=flag argument to ngrok @demo)
 
 360 View (Photostiching application)
 https://www.ptgui.com/
