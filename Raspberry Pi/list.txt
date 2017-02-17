@@ -23,6 +23,7 @@ https://www.youtube.com/watch?v=u5oTz1e5qqE
 - WIndows IOT Core: https://developer.microsoft.com/en-us/windows/iot/GetStarted#
 - Money Transfer
 - Something for blind and visually challenged (say, assistant says what's before the blind) (https://github.com/dilawar/eye-blink-detector)
+-Watch https://app.pluralsight.com/library/courses/hack-your-api-first/table-of-contents
 
 http://www.pyimagesearch.com/2016/01/25/real-time-panorama-and-image-stitching-with-opencv/
 
