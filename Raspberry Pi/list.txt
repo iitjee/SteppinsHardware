@@ -1,3 +1,7 @@
+ALL STEPS:
+https://www.microsoft.com/en-us/cloud-platform/internet-of-things
+
+
 TODO:
 - https://medium.com/@dvd.ciri/raspberry-pi-firebase-home-automation-d5a237f18fb5#.m5rb1in0i
 - (RPi and Arduino Intruder Alert) https://app.pluralsight.com/player?course=raspberry-pi-for-developers&author=jon-flanders&name=raspberry-pi-for-developers-m3&clip=7&mode=live
@@ -25,6 +29,10 @@ https://www.youtube.com/watch?v=u5oTz1e5qqE
 - Something for blind and visually challenged (say, assistant says what's before the blind) (https://github.com/dilawar/eye-blink-detector)
 -Watch https://app.pluralsight.com/library/courses/hack-your-api-first/table-of-contents
 - Kubernetes (Linux academy)
+
+
+Specially for IoT:
+Azure Event Hubs, Azure DocumentDB, Azure Stream Analytics, Azure Notification Hub, Azure Machine Learning, Azure HDInsight, and PowerBI.
 
 REACT NATIVE:
 https://github.com/gabrielbull/react-desktop
@@ -141,6 +149,17 @@ Why React?
  applications that deal with a lot of changing data. Combining React components with web sockets provides a graceful way to 
 share real time data between the server and many clients.
 
+Why NoSQL?
+Amazon claims that just an extra 1/10 of a second on their response times will cost them one percent in sales. And Google 
+claims that half a second increase in latency, which is just 500 milliseconds, causes their traffic to drop by a fifth. And 
+that's a few billion dollars. There are psychological studies that indicate that a user starts getting impatient if the web 
+request on the screen takes more than just 200 milliseconds, which is really nothing more than a fifth of a second.
+Competitive advantage in today's online world is about 250 milliseconds. If your website is faster than the competitor's 
+website by just 250 milliseconds on average, you might have already won the game.
+
+ DocumentDB is a fully managed, noSQL database service built for fast and predictable performance. High available, elastic 
+ scaling, global distribution and ease of development. As a schema-free noSQL database, DocumentDB provides rich and familiar 
+ SQL query capabilities. Yes, you heard me right, SQL query capabilities. This is the best part. DocumentDB guarantees that 99% of your reads are served under 10 milliseconds and 99% of your writes are served under 15 milliseconds.
 
 
 
