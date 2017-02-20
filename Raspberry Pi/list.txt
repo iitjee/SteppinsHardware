@@ -14,6 +14,8 @@ TODO:
 - Connect Docker with Azure: https://linuxacademy.com/azure/training/course/name/microsoft-azure-docker-container-hosting
 - Machine learning with Azure: https://linuxacademy.com/bigdata/training/course/name/machine-learning-with-azure
 - Kubernetes? https://linuxacademy.com/devops/training/course/name/running-container-clusters-with-kubernetes
+https://vimeo.com/171803492
+
 - D3.js Graphs (React-socket course has this section)
 - https://www.ibm.com/developerworks/library/iot-docker-containers/
 - (SEcurity of Containers) https://www.linux.com/news/future-iot-containers-aim-solve-security-crisis
