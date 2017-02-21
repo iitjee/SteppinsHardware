@@ -154,7 +154,9 @@ Why React?
  applications that deal with a lot of changing data. Combining React components with web sockets provides a graceful way to 
 share real time data between the server and many clients.
 
-Why NoSQL?
+Why DocumentDb?
+The two most important factors when choosing a NoSQL database are scalability and performance. Which is why DocumentDB is such an exciting solution. DocumentDB scales exceptionally well and is fully managed, making our job as a developer much more stream line.
+
 Amazon claims that just an extra 1/10 of a second on their response times will cost them one percent in sales. And Google 
 claims that half a second increase in latency, which is just 500 milliseconds, causes their traffic to drop by a fifth. And 
 that's a few billion dollars. There are psychological studies that indicate that a user starts getting impatient if the web 
