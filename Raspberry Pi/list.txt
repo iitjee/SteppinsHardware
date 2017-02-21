@@ -23,6 +23,8 @@ https://vimeo.com/171803492
 - https://github.com/airbnb/react-native-maps
 - 
 
+
+
 - D3.js Graphs (React-socket course has this section)
 - https://www.ibm.com/developerworks/library/iot-docker-containers/
 - (SEcurity of Containers) https://www.linux.com/news/future-iot-containers-aim-solve-security-crisis
@@ -118,6 +120,12 @@ Face Recog tut: https://www.open-electronics.org/raspberry-pi-and-the-camera-pi-
 http://www.instructables.com/id/Overview/
 http://www.mechanic37.com/2016/05/Mouse-interface-controlled-servo-Arduino.html
 https://microsoft.hackster.io/en-US/windows-iot/security-camera-579b7f
+
+
+PAN TILT:
+https://github.com/richardghirst/PiBits/tree/master/ServoBlaster
+https://computers.tutsplus.com/tutorials/how-to-build-a-wireless-pi-camera-pan-and-tilt-platform--mac-57052
+
 
 Take snap-shots when asked and prompt the user to ask where to store
 Store photos in user's onedrive account
