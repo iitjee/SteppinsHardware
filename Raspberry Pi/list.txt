@@ -15,6 +15,9 @@ TODO:
 - Machine learning with Azure: https://linuxacademy.com/bigdata/training/course/name/machine-learning-with-azure
 - Kubernetes? https://linuxacademy.com/devops/training/course/name/running-container-clusters-with-kubernetes
 https://vimeo.com/171803492
+- RGB Led to start voice assistant
+- Leds dimming while playing music
+- Reminders (say "Sir, you have Code Fun Do" )
 
 - D3.js Graphs (React-socket course has this section)
 - https://www.ibm.com/developerworks/library/iot-docker-containers/
