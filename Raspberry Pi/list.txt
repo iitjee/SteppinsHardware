@@ -19,6 +19,10 @@ https://vimeo.com/171803492
 - Leds dimming while playing music
 - Reminders (say "Sir, you have Code Fun Do" )
 
+(Get GPS data from all phones, and say the distance)
+- https://github.com/airbnb/react-native-maps
+- 
+
 - D3.js Graphs (React-socket course has this section)
 - https://www.ibm.com/developerworks/library/iot-docker-containers/
 - (SEcurity of Containers) https://www.linux.com/news/future-iot-containers-aim-solve-security-crisis
