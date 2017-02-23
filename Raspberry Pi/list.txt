@@ -1,6 +1,8 @@
 ALL STEPS:
 https://www.microsoft.com/en-us/cloud-platform/internet-of-things
 
+IMPORTANT
+https://dribbble.com/search?q=home+assistant
 
 TODO:
 - https://medium.com/@dvd.ciri/raspberry-pi-firebase-home-automation-d5a237f18fb5#.m5rb1in0i
@@ -23,6 +25,8 @@ https://vimeo.com/171803492
 - https://github.com/airbnb/react-native-maps
 - 
 
+(IoT Hub and all other services)
+-https://docs.microsoft.com/en-us/azure/azure-subscription-service-limits
 
 
 - D3.js Graphs (React-socket course has this section)
