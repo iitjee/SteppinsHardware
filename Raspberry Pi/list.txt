@@ -28,6 +28,9 @@ https://vimeo.com/171803492
 (IoT Hub and all other services)
 -https://docs.microsoft.com/en-us/azure/azure-subscription-service-limits
 
+azure-node-socket : https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-nodejs-chat-app-socketio
+https://docs.microsoft.com/en-us/azure/azure-subscription-service-limits#iot-hub-limits
+Blob Storage: https://azure.microsoft.com/en-us/resources/samples/storage-blobs-dotnet-webapp/
 
 - D3.js Graphs (React-socket course has this section)
 - https://www.ibm.com/developerworks/library/iot-docker-containers/
