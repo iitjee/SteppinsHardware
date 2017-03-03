@@ -1,0 +1,7 @@
+Circular slider
+https://github.com/bgryszko/react-native-circular-progress
+
+Modular Units:
+https://github.com/ollija/react-native-sortable-grid
+
+
